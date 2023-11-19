@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <title>pariwisataku</title>
+  </head>
+
+  <body>
+    <div class="fContainer">
+      <nav class="wraper">
+        <div class="brand">
+          <div class="fristname">Pariwisataku</div>
+
+         
+        </div>
+        <ul class="navigation">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li> 
+          <li><a href="#content">Content</a></li>
+        </ul>
+      </nav>
+
+      <section>
+      <span id="home">HOME</span>
+      <span id="about">ABOUT</span>
+      <span id="content">CONTENT</span>
+    </section>
+    </div>
+    <div class="container">
+      <div class="header" id="home">
+        <h1>Sejarah Candi Borobudur</h1>
+        <p>
+          Candi Borobudur terletak di Kabupaten Magelang, berjarak 15 km dari
+          Yogyakarta. Borobudur terletak di bukit Menoreh serta dikelilingi oleh
+          gunung – gunung besar seperti Merbabu, Merapi, Sindoro dan Sumbing.
+          Candi ini pun dekat dengan Candi Mendut yaitu berjarak 3 km. Borobudur
+          merupakan peninggalan Dinasti Syailendra dari abad ke – 9 M. Selain
+          nama Borobudur juga disebut Barabudhur dalam sejarahnya.
+        </p>
+      </div>
+      <div class="picture"></div>
+      <div class="paragraf">
+        <h2>Explanation</h2>
+        <hr />
+        <p>
+          Candi borobudur merupakan salah satu monumen atau bangunan umat Buddha terbesar di dunia yang dibangun pada abad ke-8 dan ke-9 Masehi pada masa pemerintahan Dinasti Syailendra, Monumen ini terletak di Lembah Kedu, di bagian selatan provinsi Jawa Tengah, tepatnya di Kabupaten Magelang. Candi dengan luas 2500m persegi ini menyimpan banyak sejarah di dalamnya, bagaimana agama Buddha pernah mencapai puncak kejayaannya selama masa penyebaran agama Buddha di Indonesia. Tak hanya itu, candi ini juga pernah masuk dalam tujuh keajaiban Dunia dan saat ini termasuk dalam salah satu warisan dunia yang dilindungi oleh UNESCO. Ukiran batu yang mengelilingi setiap sudut komplek candi ini seolah melambangkan kekuasaan besar Buddha yang hingga saat ini masih dapat dikenang oleh banyak masyarakat.
+        </p>
+      </div>
+      <div class="content cf" id="about">
+        <div class="kiri">
+          <h3>Warisan Budaya</h3>
+          <img src="4.jpg" />
+          <p>
+            Borobudur sebagai salah satu wisata dunia di Indonesia tidak lepas dari peran UNESCO dalam kegiatan restorasi candi. UNESCO juga menetapkan Borobudur sebagai cagar budaya warisan dunia pada 1991. Sampai sat ini Candi Borobudur menjadi salah satu tujuan wisata di Jawa Tengah dan Yogyakarta. Apalagi setelah Borobudur dijadikan salah satu dari tujuh keajabian dunia.
+        </div>
+        <div class="kanan">
+          <h3>Struktur Candi</h3>
+          <img src="3.jpg" />
+          <p>
+            Candi Borobudur terletak di sebuah bukit yang memanjang ke arah
+            timur ke barat. Candi ini terbuat dari batu – batu andesit sebanyak
+            47.500 m3, yang disusun dengan cara saling mengunci antara satu batu
+            dan batu lain serta dengan dilapisi putuh vajralepa layaknya candi –
+            candi seperti Candi Kalasan dan Candi Sari. Terdapat empat tangga
+            dari empat mata angin yang menghantarkan ke atas candi.
+          </p>
+        </div>
+        
+          <div class="jarak">
+            <h2>Conclusion</h2>
+            <hr />
+            <p>
+              Candi borobudur sebagai salah satu wisata dunia di Indonesia tidak lepas
+              dari peran UNESCO dalam kegiatan restorasi candi. UNESCO juga
+              menetapkan Borobudur sebagai cagar budaya warisan dunia pada 1991.
+              Sampai sat ini Candi Borobudur menjadi salah satu tujuan wisata di
+              Jawa Tengah dan Yogyakarta. Apalagi setelah Borobudur dijadikan
+              salah satu dari tujuh keajabian dunia.
+            </p>      
+            
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <div class="information">
+              <p><i class="fas fa-phone"></i>+62 844 30229 9182</p>
+              <p><i class="fas fa-envelope"></i>borobudur@gmail.com</p>
+              <p><i class="fas fa-map-marker-alt"></i>jl.jendral Magelang </p>
+            </div>
+          </div>
+
+               
+          <div class="tujuan">
+            <h4>berikut adalah data pengunjung candi borobudur 2020-2022</h4>
+            <a href="https://magelangkab.bps.go.id/indicator/16/327/1/pengunjung-candi-borobudur.html">KLIK DI SINI</a>
+          </div>
+   
+          <!-- <body> -->
+
+            <h2>Data Candi Borobudur</h2>
+
+            <div class="candi">
+
+            <input id="numb">
+
+            <button type="button" onclick="myFunction()">submit</button>
+
+            <p id="demo"></p>
+          </div>
+
+            <!-- validadi function java scrip -->
+            <script>
+              function myFunction() {
+                // Get the value of the input field with id="numb"
+                let x = document.getElementById("numb").value;
+                // If x is Not a Number or less than one or greater than 10
+                let text;
+                if (isNaN(x) || x < 1 || x > 10) {
+                  text = "Input not valid";
+                } else {
+                  text = "Input OK";
+                }
+                document.getElementById("demo").innerHTML = text;
+              }
+              </script>
+            </form>
+          </div>
+            
+          <!-- tabel pengunjung -->
+          
+          <div id="content">
+            <h2>Data pengunjung Candi Borobudur tahun 2020-2022</h2>
+            <br>
+           <table style="width: 100%;">
+            <tr>
+              <th rowspan="2">
+              Bulan</th>
+              <th colspan="6">
+              Pengunjung Candi Borobudur</th>
+              </tr>
+            <tr>
+              <th>2020</th>
+              <th>2021</th>
+              <th>2022</th>
+              <th>2020</th>
+              <th>2021</th>
+              <th>2022</th>
+            </tr>
+            <tr>
+              <td>Januari</td>
+              <td>395 175</td>
+              <td>30 394</td>
+              <td>131 561</td>
+              <td>15 603</td>
+              <td>52</td>
+              <td>127</td>
+            </tr>
+            <tr>
+              <td>Februari</td>
+              <td>234 280</td>
+              <td>18 641</td>
+              <td>89 203</td>
+              <td>11 506</td>
+              <td>37</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <td>Maret</td>
+              <td>111 908</td>
+              <td>34 624</td>
+              <td>111 540</td>
+              <td>4 213</td>
+              <td>33</td>
+              <td>348</td>
+            </tr>
+            <tr>
+              <td>April</td>
+              <td>-</td>
+              <td>30 713</td>
+              <td>23 890</td>
+              <td>-</td>
+              <td>64</td>
+              <td>618</td>
+            </tr>
+            <tr>
+              <td>Mei</td>
+              <td>-</td>
+              <td>38 369</td>
+              <td>324 135</td>
+              <td>-</td>
+              <td>55</td>
+              <td>2 175</td>
+            </tr>
+            <tr>
+              <td>Juni</td>
+              <td>2 235</td>
+              <td>54 589</td>
+              <td>191 810</td>
+              <td>2</td>
+              <td>70</td>
+              <td>4 341</td>
+            </tr>
+            <tr>
+              <td>Juli</td>
+              <td>16 858</td>
+              <td>0</td>
+              <td>125 266</td>
+              <td>29</td>
+              <td>0</td>
+              <td>1 184</td>
+            </tr>
+            <tr>
+              <td>Agustus</td>
+              <td>45 571</td>
+              <td>0</td>
+              <td>51 906</td>
+              <td>39</td>
+              <td>0</td>
+              <td>15 550</td>
+            </tr>
+              <td>September</td>
+              <td>23 591</td>
+              <td>5 892</td>
+              <td>44 552</td>
+              <td>19</td>
+              <td>9</td>
+              <td>9 853</td>
+            </tr>
+            <tr>
+              <td>Oktober</td>
+              <td>43 159</td>
+              <td>30 285</td>
+              <td>76 461</td>
+              <td>38</td>
+              <td>93</td>
+              <td>7 688</td>
+            </tr>
+            <tr>
+              <td>November</td>
+              <td>32 449</td>
+              <td>51 485</td>
+              <td>74 253</td>
+              <td>26</td>
+              <td>106</td>
+              <td>4 941</td>
+            </tr>
+            <tr>
+              <td>Desember</td>
+              <td>965 699</td>
+              <td>422 930	</td>
+              <td>1 443 286</td>
+              <td>31 551</td>
+              <td>674</td>
+              <td>53 936</td>
+            </tr>
+            </table>
+          </body>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

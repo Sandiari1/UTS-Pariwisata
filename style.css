@@ -1,0 +1,246 @@
+*,
+html,
+css {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* desain navigasi */
+.fContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: #222;
+  position: fixed;
+  z-index: 1000;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.fristname {
+  margin-top: 0px;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+/* menu navigasi */
+.navigation {
+  transition: width 2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+}
+.navigation > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation > li > a:hover {
+  color: blue;
+}
+
+.container {
+  width: 960px;
+  margin: 50px auto;
+  background-color: gainsboro;
+}
+
+/* pembungkus header */
+.header {
+  padding: 20px;
+}
+
+.header p {
+  margin-top: 10px;
+}
+
+.picture {
+  height: 400px;
+  background-image: url(logo1.jpg);
+  background-size: cover;
+}
+
+.jarak {
+  margin-bottom: 20px;
+}
+
+.jarak h2 {
+  margin-top: 10px;
+}
+.tujuan {
+  text-align: center;
+  margin-top: auto;
+  padding-top: 0;
+  padding-right: 50px;
+  padding: auto;
+  width: auto;
+}
+
+/* contack */
+.content-form h2 {
+  text-align: right;
+}
+
+hr {
+  width: 300px;
+  border-top: 3px solid lightblue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.paragraf {
+  padding: 20px;
+}
+
+.paragraf p {
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: block;
+}
+
+.content {
+  padding: 50px;
+  margin-top: auto;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.form-group button {
+  text-align: center;
+}
+
+.contack-info p {
+  text-align: justify;
+}
+
+.kiri {
+  width: 400px;
+  float: left;
+  background-color: grey;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.kanan {
+  width: 400px;
+  float: right;
+  background-color: grey;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  height: 180px;
+  margin-left: 50px;
+}
+
+.contack {
+  width: 50%;
+  margin: 50px;
+  margin-left: auto;
+}
+
+/* form candi */
+.candi {
+  text-align: center;
+}
+
+/* contack information */
+.information p {
+  text-align: center;
+  margin: 10px;
+}
+
+.content-info {
+  margin-top: auto;
+}
+
+.menu {
+  text-align: center;
+}
+
+.data {
+  width: 20%; /* Sesuaikan lebar elemen sesuai kebutuhan */
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+  background-color: bisque;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* .cf {
+  *zoom: 1;
+} */
+
+h2 {
+  text-align: center;
+}
